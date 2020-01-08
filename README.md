@@ -27,3 +27,9 @@ Tech limits:
             application. Otherwise, UI frameworks/libraries such as React/Angular are most welcome
             for developing the UI (which already should satisfy the requirement in the previous
             sentence).
+            
+---------------------------------------------------------------
+This application uses Maven to package into a .war file. This file can then be deployed on a Tomcat server.
+To use this application both the encrypter_ui and encrypter_api must be deployed on a Tomcat server.
+The deployed UI can then be found at http://localhost:8080/encrypter_ui/
+ 
